@@ -136,14 +136,14 @@ make run       # run the JSON example
 ## How it works
 
 Under the hood this calls the ScrapeUnblocker Python SDK's `ebay_search` method,
-which hits the [eBay search plugin](https://developers.scrapeunblocker.com/?utm_source=github&utm_medium=integration&utm_campaign=example-repos).
+which hits the [eBay search plugin](https://docs.scrapeunblocker.com/?utm_source=github&utm_medium=integration&utm_campaign=example-repos).
 ScrapeUnblocker handles the unblocking and returns structured JSON; this library
 normalizes it into typed objects and adds price parsing, paging and retries.
 
 ## Links
 
 - 🌐 ScrapeUnblocker — https://scrapeunblocker.com/?utm_source=github&utm_medium=integration&utm_campaign=example-repos
-- 📚 Documentation — https://developers.scrapeunblocker.com/?utm_source=github&utm_medium=integration&utm_campaign=example-repos
+- 📚 Documentation — https://docs.scrapeunblocker.com/?utm_source=github&utm_medium=integration&utm_campaign=example-repos
 
 ## License
 

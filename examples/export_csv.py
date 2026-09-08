@@ -4,7 +4,7 @@ Run:
     export SCRAPEUNBLOCKER_KEY=your_key_here
     python examples/export_csv.py "wireless earbuds" ebay.co.uk
 
-Docs: https://developers.scrapeunblocker.com/?utm_source=github&utm_medium=integration&utm_campaign=example-repos
+Docs: https://docs.scrapeunblocker.com/?utm_source=github&utm_medium=integration&utm_campaign=example-repos
 """
 
 from __future__ import annotations
