@@ -7,7 +7,7 @@ name = "ebay-scraper"
 version = "0.1.0"
 description = "Scrape eBay listings (title, price, condition, seller) across regional marketplaces via ScrapeUnblocker."
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.11"
 license = { text = "MIT" }
 authors = [{ name = "ScrapeUnblocker" }]
 keywords = ["ebay", "scraper", "web-scraping", "scrapeunblocker", "ecommerce"]
@@ -16,11 +16,11 @@ classifiers = [
     "Intended Audience :: Developers",
     "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.9",
-    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.13",
     "Topic :: Internet :: WWW/HTTP :: Indexing/Search",
 ]
-dependencies = ["scrapeunblocker>=0.2.0"]
+dependencies = ["scrapeunblocker>=0.18,<1"]
 
 [project.optional-dependencies]
 dev = ["pytest>=7.0", "ruff>=0.4.0"]
@@ -37,7 +37,7 @@ where = ["src"]
 
 [tool.ruff]
 line-length = 100
-target-version = "py39"
+target-version = "py311"
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "UP", "B"]

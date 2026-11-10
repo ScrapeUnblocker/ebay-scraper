@@ -1,7 +1,7 @@
 # ebay-scraper
 
 [![CI](https://github.com/ScrapeUnblocker/ebay-scraper/actions/workflows/ci.yml/badge.svg)](https://github.com/ScrapeUnblocker/ebay-scraper/actions/workflows/ci.yml)
-[![Python](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/)
+[![Python](https://img.shields.io/badge/python-3.11%2B-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
 A clean, typed **eBay listings scraper** in Python. Search any regional eBay
@@ -36,7 +36,7 @@ pip install .
 pip install -e ".[dev]"
 ```
 
-Requires Python 3.9+ and a ScrapeUnblocker API key. Copy `.env.example` to `.env`
+Requires Python 3.11+ and a ScrapeUnblocker API key. Copy `.env.example` to `.env`
 (or export the variable) and set your key — get one at
 [scrapeunblocker.com](https://scrapeunblocker.com/?utm_source=github&utm_medium=integration&utm_campaign=example-repos):
 
